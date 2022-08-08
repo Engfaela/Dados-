@@ -1,12 +1,10 @@
 # Dados-
-Primeiro Projeto Analise Dados 
-file_extension": ".py",
-   "mimetype": "text/x-python",
-   listadomercado = ["ovos,farinha,leite"]
-print ( listadomercado)
-variavel = 50
-print (variavel)
-# Variáveis: Definição e tipos 
+Primeiro Projeto Analise Dados
+
+Hello, world!
+
+# Variáveis: Definição e tipos
+
 # Declarando 3 variáveis e atribuindo valores a elas
 var_string = "Hello!"
 var_number = 9
@@ -22,7 +20,17 @@ print(type(var_string))
 print(type(var_number))
 print(type(var_float))
 
-import scipy as syimport pandas as pd
-import numpy as np
-import seaborn as sns
+# Conversões de variáveis
+
+print(var_float)
+print(str(var_float))          # Convert to string
+print(int(var_float))          # Convert to int
+print(var_float)
+
 pnad = pd.read_csv('dados_pnad.csv',sep=',')
+
+    normalize = True
+dist_freq_quantitativas_personalizadas = pd.DataFrame(
+    {'Frequência': frequencia, 'Porcentagem (%)': percentual * 100}
+)
+dist_freq_quantitativas_personalizadas.round(2)
